@@ -54,4 +54,13 @@ public class Joke {
     public void setRating(int rating) {
         this.rating = rating;
     }
+
+    @Column
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
 }
